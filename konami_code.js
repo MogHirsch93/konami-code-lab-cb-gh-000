@@ -9,9 +9,10 @@ function init() {
 
     if(key === code[i]){
       i++;
-    }if(i === code.length){
+    if(i === code.length){
       alert("You only went and did it. You are the king of the konami code!");
       i = 0;
+      }
     }else{
       i = 0;
       }
