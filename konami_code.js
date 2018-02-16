@@ -6,7 +6,6 @@ function init() {
 
     let key = parseInt(event.which);
 
-    for(let i = 0; i < code.length; i++){
     if(key === code[i]){
       i++;
     }if(i === code.length){
@@ -15,6 +14,5 @@ function init() {
     }else{
       i = 0;
       }
-    }
   })
 }
