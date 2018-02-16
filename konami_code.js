@@ -5,10 +5,18 @@ function init() {
   let input = document.querySelector('input')
 
   input.addEventListener('keydown', function(event){
-    
+
     let key = parseInt(e.which);
-    
-    if(event.which ===)
+
+    if(event.which ===){
+
+    }if)index === code.length){
+      alert("You only went and did it. You are the king of the konami code!");
+
+      index = 0;
+    }else{
+      index = 0;
+    }
   })
 
 }
