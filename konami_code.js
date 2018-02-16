@@ -7,14 +7,14 @@ function init() {
 
     let key = parseInt(event.which);
 
-    if(key === code[i]){
+    if(key === code[i]) {
       i++;
-    if(i === code.length){
-      alert("You only went and did it. You are the king of the konami code!");
-      i = 0;
+      if(i === code.length) {
+        alert("You only went and did it. You are the king of the konami code!");
+        i = 0;
       }
-    }else{
+    } else {
       i = 0;
-      }
+    }
   })
 }
